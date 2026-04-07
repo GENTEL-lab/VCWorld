@@ -25,7 +25,7 @@ The VCWorld pipeline runs in three stages:
 3) Structured reasoning: synthesizes evidence to predict DE or DIR with a mechanistic explanation.
 
 ## Dataset: GeneTAK
-GeneTAK is derived from the Tahoe-100M single-cell atlas and focuses on gene-level perturbation responses. You can download the processed dataset from [https://doi.org/10.5281/zenodo.18513982](https://doi.org/10.5281/zenodo.18513982).
+GeneTAK is derived from the Tahoe-100M single-cell atlas and focuses on gene-level perturbation responses. You can download the constructed open world knowledge graph from [https://doi.org/10.5281/zenodo.18513982](https://doi.org/10.5281/zenodo.18513982).
 
 - Cell lines: 5 (C32, HOP62, HepG2/C3A, Hs 766T, PANC-1)
 - Perturbations: 348 drug compounds
