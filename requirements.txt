@@ -1,0 +1,26 @@
+# VCWorld project requirements
+# Python: 3.10 recommended.
+
+# Core data pipeline
+numpy==2.2.6
+pandas==2.3.3
+scanpy==1.11.4
+anndata==0.11.4
+h5py==3.15.1
+scipy==1.15.3
+scikit-learn==1.7.2
+statsmodels==0.14.6
+numba==0.63.1
+
+# Local HuggingFace inference
+# accelerate is required when using device_map="auto" in transformers.
+torch==2.8.0
+transformers==4.57.6
+accelerate>=0.26.0
+huggingface-hub==0.36.0
+tokenizers==0.22.2
+safetensors==0.7.0
+sentencepiece>=0.2.0
+protobuf==5.29.5
+
+
